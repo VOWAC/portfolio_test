@@ -168,11 +168,11 @@ export default function About() {
             <Profile></Profile>
           </div>
           <div className={styles.hobby} id="hobby" ref={hero}>
-            <Hobby></Hobby>
+          <Skill></Skill>
           </div>
-          <div className={styles.div} id="skill" ref={skill}>
+          {/* <div className={styles.div} id="skill" ref={skill}>
             <Skill></Skill>
-          </div>
+          </div> */}
         </div>
       </div>
     </motion.div>
