@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 import styles from "../styles/about.module.scss";
 import Profile from "../components/profile";
 import Link from "next/link";
-// import Hobby from "../components/hobby";
+import Hobby from "../components/hobby";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -167,9 +167,9 @@ export default function About() {
           <div className={styles.profile} id="profile" ref={content}>
             <Profile></Profile>
           </div>
-          {/* <div className={styles.hobby} id="hobby" ref={hero}>
+          <div className={styles.hobby} id="hobby" ref={hero}>
             <Hobby></Hobby>
-          </div> */}
+          </div>
           <div className={styles.div} id="skill" ref={skill}>
             <Skill></Skill>
           </div>
