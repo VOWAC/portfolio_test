@@ -1,15 +1,15 @@
 import React from "react";
-// import Image from "next/image";
-// import texture from "public/texture.jpg";
-// import styles from "../styles/bg.module.scss";
-// import logo from "../public/YukihaLogo.svg"
+import Image from "next/image";
+import Texture from "../public/texture.jpg"
+import styles from "../styles/bg.module.scss";
+import logo from "../public/YukihaLogo.svg"
 
 const Bg = () => {
   return (
     <>
-      {/* <Image
+      <Image
         className={styles.bg}
-        src={texture}
+        src={Texture}
         layout="fill"
         objectFit="cover"
       />
@@ -19,7 +19,7 @@ const Bg = () => {
         layout="fill"
         // objectFit="cover"
         //
-      /> */}
+      />
     </>
   );
 };

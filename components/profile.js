@@ -1,6 +1,6 @@
 import React from "react";
-// import fydnr from "public/fydnr.png";
-// import Image from "next/image";
+import fydnr from "../public/fydnr.png";
+import Image from "next/image";
 import styles from "../styles/profile.module.scss";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -11,7 +11,7 @@ const Profile = () => {
     <>
       <div className={styles.layout}>
         <div className={styles.icon}>
-          {/* <Image src={fydnr} alt="icon" height="200px" width="200px"></Image> */}
+          <Image src={fydnr} alt="icon" height="200px" width="200px"></Image>
         </div>
         <div className={styles.content}>
           <div className={styles.passingBar}>
