@@ -138,7 +138,7 @@ export default function About() {
       transition={{ duration: 0.3, delay: 0.4 }}
     >
       <div>
-        <div>
+        <div className={styles.overall}>
           <Container>
             <div className={styles.header}>
               <Header title="アバウト" />
