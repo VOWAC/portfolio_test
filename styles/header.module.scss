@@ -1,0 +1,42 @@
+.navFalse {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    width: 180px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+  }
+  
+  .overAll {
+    position: absolute;/*←絶対位置*/
+    top: 0; /*上に固定*/
+    left: 0;
+    // position: fixed;
+    // flex: 1;
+    margin-top: -50px;
+    display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    width: 100vw;
+    // overflow:hidden;
+  }
+  
+  .nav {
+    display: flex;
+    margin-left: 50%;
+    z-index: 99;
+    // overflow:hidden;
+    p {
+      margin:10px 30px;
+      // overflow:hidden;
+      :nth-child(2) {
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
+      }
+    }
+  }
+  
