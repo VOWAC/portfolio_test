@@ -35,10 +35,10 @@ const Works = () => {
         </div>
       </Container>
       <div className={styles.imgsList}>
-            <Image className={styles.imgs} src={Works1} width={330} height={200}></Image>
-            <Image className={styles.imgs} src={Works2} width={330} height={200}></Image>
-            <Image className={styles.imgs} src={Works3} width={330} height={200}></Image>
-            <Image className={styles.imgs} src={Works4} width={330} height={200}></Image>
+            <Image className={styles.imgs} src={Works1} width={330} height={200} alt="works1"></Image>
+            <Image className={styles.imgs} src={Works2} width={330} height={200} alt="works2"></Image>
+            <Image className={styles.imgs} src={Works3} width={330} height={200} alt="works3"></Image>
+            <Image className={styles.imgs} src={Works4} width={330} height={200} alt="works4"></Image>
         </div>
     </motion.div>
   );
