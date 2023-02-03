@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#npm.greensock.com/:_authToken=063d00af-47b3-46f9-aa4d-ef8e798a87f4
+@gsap:registry=https://npm.greensock.com
