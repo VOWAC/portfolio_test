@@ -1,0 +1,155 @@
+.HTML {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(#333 34%, transparent 35%),
+      conic-gradient(#000 0% 80%, #ccc 100% 80%);
+    border-radius: 50%;
+    color: #fff;
+  }
+  .CSS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(#333 34%, transparent 35%),
+      conic-gradient(#000 0% 70%, #ccc 100% 70%);
+    border-radius: 50%;
+    color: #fff;
+  }
+  .JavaScript {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(#333 34%, transparent 35%),
+      conic-gradient(#000 0% 60%, #ccc 100% 60%);
+    border-radius: 50%;
+    color: #fff;
+  }
+  .Figma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(#333 34%, transparent 35%),
+      conic-gradient(#000 0% 55%, #ccc 100% 55%);
+    border-radius: 50%;
+    color: #fff;
+  }
+  .React {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(#333 34%, transparent 35%),
+      conic-gradient(#000 0% 53%, #ccc 100% 53%);
+    border-radius: 50%;
+    color: #fff;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    // margin-top: -100px;
+  }
+  
+  .chart {
+    display: flex;
+    width: fit-content;
+    margin-right: 150px;
+  }
+  .textItems {
+    width: 300px;
+    // padding-left: 40px;
+  }
+  
+  .chartText {
+    display: flex;
+    border: none;
+    padding-left: 20px;
+  }
+  
+  .listItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-right: 1px solid #000;
+    // padding: 0 0px 0 0;
+    // margin-left: 200px;
+    width: 200px;
+    p {
+      // border-bottom: 1px solid #000;
+      // padding: 0 100px;
+      margin-right: 100px;
+      margin-left: 100px;
+    }
+  }
+  
+  .chartItems {
+    position: relative;
+    left: 0px;
+  }
+  
+  .layout {
+    display: flex;
+  }
+  
+  .boxRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .true {
+    background-color: #000;
+    color: #fff;
+    padding: 0 20px;
+    transition: all 0.25s ease-out;
+    transform-origin: left;
+  }
+  
+  .false {
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    position: relative;
+    display: inline-block;
+    // padding: 8px 0;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.5s ease;
+    text-align: center;
+    &:hover {
+      &::before {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    }
+  
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #000;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: all 0.25s ease;
+      transition-property: transform;
+    }
+  }
+  

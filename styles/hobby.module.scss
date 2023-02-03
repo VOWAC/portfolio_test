@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+    width: 1440px;
+    margin-left: 300px;
+  }
+  .imageContainer {
+    span {
+      position: unset !important;
+    }
+  
+    .image {
+      margin-top: -100px;
+      position: relative !important;
+      width: 300px !important;
+      height: unset !important;
+    }
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -100px 150px 0 300px;
+  }
+  
