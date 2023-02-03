@@ -1,5 +1,5 @@
 import React from "react";
-import hobby from "../public/hobby.png";
+import hobby from "../public/hobby.PNG";
 import Image from "next/image";
 import styles from "../styles/hobby.module.scss";
 
